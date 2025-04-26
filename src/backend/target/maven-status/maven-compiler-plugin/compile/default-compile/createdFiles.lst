@@ -1,0 +1,8 @@
+com\talkup\TalkUpApplication.class
+com\talkup\entities\User.class
+com\talkup\entities\Group.class
+com\talkup\entities\TimeSlot.class
+com\talkup\entities\GroupMembership.class
+com\talkup\entities\TeacherProfile.class
+com\talkup\entities\CreditTransaction.class
+com\talkup\entities\CreditPackage.class
