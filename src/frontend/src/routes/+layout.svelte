@@ -1,7 +1,6 @@
-<style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-</style>
+<script>
+  // Import global styles
+  import '../app.css';
+</script>
 
 <slot />
