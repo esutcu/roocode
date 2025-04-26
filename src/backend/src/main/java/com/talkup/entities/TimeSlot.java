@@ -19,6 +19,10 @@ public class TimeSlot {
     @Column(name = "name", nullable = false)
     private String name;
     
+    @ManyToOne
+    @JoinColumn(name = "group_id")
+    private Group group;
+    
     @Column(name = "created_at", nullable = false)
     private Date createdAt;
     
@@ -82,5 +86,13 @@ public class TimeSlot {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
+    }
+    
+    public Group getGroup() {
+        return group;
+    }
+    
+    public void setGroup(Group group) {
+        this.group = group;
     }
 }

@@ -1,8 +1,15 @@
 C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\Group.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\controllers\AvailabilityController.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\config\SecurityConfig.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\controllers\BookingController.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\User.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\controllers\GroupController.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\GroupMembership.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\controllers\UserController.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\controllers\CreditController.java
 C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\CreditPackage.java
 C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\TeacherProfile.java
-C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\User.java
-C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\GroupMembership.java
 C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\TalkUpApplication.java
 C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\TimeSlot.java
+C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\controllers\AuthController.java
 C:\Users\Owner\Desktop\roocode\src\backend\src\main\java\com\talkup\entities\CreditTransaction.java
