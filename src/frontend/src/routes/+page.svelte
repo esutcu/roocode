@@ -10,9 +10,23 @@
   function navigateToSignup() {
     goto('/signup');
   }
+  
+  if (browser) {
+    const mobileMenuButton = document.querySelector('[aria-label="Open main menu"]');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuButton && mobileMenu) {
+      mobileMenuButton.addEventListener('click', () => {
+        const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+        mobileMenuButton.setAttribute('aria-expanded', !expanded);
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  }
 </script>
 
 <div class="min-h-screen bg-gray-50">
+</div>
   <!-- Navigation Bar -->
   <nav class="bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -613,41 +627,19 @@
         
         <div>
           <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
-          <ul role="list" class="mt-4 space-y-3">
-            <li>
-              <a href="#" class="text-sm text-gray-300 hover:text-white">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#" class="text-sm text-gray-300 hover:text-white">Terms of Service</a>
-            </li>
-            <li>
-              <a href="#" class="text-sm text-gray-300 hover:text-white">Cookie Policy</a>
-            </li>
-          </ul>
+<ul role="list" class="mt-4 space-y-3">
+  <li>
+    <a href="#" class="text-sm text-gray-300 hover:text-white">Privacy Policy</a>
+  </li>
+  <li>
+    <a href="#" class="text-sm text-gray-300 hover:text-white">Terms of Service</a>
+  </li>
+  <li>
+    <a href="#" class="text-sm text-gray-300 hover:text-white">Cookie Policy</a>
+  </li>
+</ul>
         </div>
-      </div>
-      
-      <div class="mt-8 pt-8 border-t border-gray-700">
-        <p class="text-sm text-gray-400 text-center">
-          &copy; 2025 TalkUp Language Platform. All rights reserved.
-        </p>
       </div>
     </div>
   </footer>
-  
-  <!-- Mobile Navigation Script -->
-  <script>
-    if (browser) {
-      const mobileMenuButton = document.querySelector('[aria-label="Open main menu"]');
-      const mobileMenu = document.getElementById('mobile-menu');
-      
-      if (mobileMenuButton && mobileMenu) {
-        mobileMenuButton.addEventListener('click', () => {
-          const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
-          mobileMenuButton.setAttribute('aria-expanded', !expanded);
-          mobileMenu.classList.toggle('hidden');
-        });
-      }
-    }
-  </script>
 </div>
