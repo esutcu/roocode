@@ -30,31 +30,43 @@ const createAuthStore = () => {
     subscribe,
     initialize: () => {
       if (browser) {
-        const token = localStorage.getItem('authToken');
-        const userId = localStorage.getItem('userId');
-        const userRole = localStorage.getItem('userRole');
+        try {
+          const token = localStorage.getItem('authToken');
+          const userId = localStorage.getItem('userId');
+          const userRole = localStorage.getItem('userRole');
 
-        if (token && userId && userRole) {
-          update(state => ({
-            ...state,
-            isAuthenticated: true,
-            token,
-            user: {
-              id: userId,
-              role: userRole
-            },
-            loading: false
-          }));
-        } else {
+          if (token && userId && userRole) {
+            update(state => ({
+              ...state,
+              isAuthenticated: true,
+              token,
+              user: {
+                id: userId,
+                role: userRole
+              },
+              loading: false
+            }));
+          } else {
+            update(state => ({ ...state, loading: false }));
+          }
+        } catch (error) {
+          console.error('Error initializing auth store:', error);
           update(state => ({ ...state, loading: false }));
         }
+      } else {
+        // For server-side rendering, just set loading to false
+        update(state => ({ ...state, loading: false }));
       }
     },
     login: (token: string, userId: string, userRole: string) => {
       if (browser) {
-        localStorage.setItem('authToken', token);
-        localStorage.setItem('userId', userId);
-        localStorage.setItem('userRole', userRole);
+        try {
+          localStorage.setItem('authToken', token);
+          localStorage.setItem('userId', userId);
+          localStorage.setItem('userRole', userRole);
+        } catch (error) {
+          console.error('Error saving auth data:', error);
+        }
       }
 
       update(state => ({
@@ -69,9 +81,13 @@ const createAuthStore = () => {
     },
     logout: () => {
       if (browser) {
-        localStorage.removeItem('authToken');
-        localStorage.removeItem('userId');
-        localStorage.removeItem('userRole');
+        try {
+          localStorage.removeItem('authToken');
+          localStorage.removeItem('userId');
+          localStorage.removeItem('userRole');
+        } catch (error) {
+          console.error('Error clearing auth data:', error);
+        }
       }
 
       set({

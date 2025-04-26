@@ -41,7 +41,7 @@
         <div class="flex items-center sm:hidden">
           <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-talkup-blue">
             <span class="sr-only">Open main menu</span>
-            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <svg class="block h-auto w-auto max-w-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
@@ -123,7 +123,7 @@
           <!-- Step 1 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
               </svg>
             </div>
@@ -138,7 +138,7 @@
           <!-- Step 2 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
             </div>
@@ -153,7 +153,7 @@
           <!-- Step 3 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
             </div>
@@ -184,7 +184,7 @@
           <!-- Feature 1 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
             </div>
@@ -199,7 +199,7 @@
           <!-- Feature 2 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
@@ -214,7 +214,7 @@
           <!-- Feature 3 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
             </div>
@@ -229,7 +229,7 @@
           <!-- Feature 4 -->
           <div class="relative">
             <div class="absolute flex items-center justify-center h-10 w-10 rounded-md bg-talkup-blue text-white">
-              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg class="h-auto w-auto max-w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
@@ -258,9 +258,9 @@
         </p>
       </div>
       
-      <div class="mt-8 space-y-4 sm:mt-10 sm:space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+      <div class="mt-8 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- Basic Package -->
-        <div class="relative p-5 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col">
+        <div class="relative p-5 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
           <div class="flex-1">
             <h3 class="text-lg font-semibold text-gray-900">Basic Package</h3>
             <p class="mt-4 flex items-baseline text-gray-900">
@@ -271,19 +271,19 @@
             <!-- Feature list -->
             <ul role="list" class="mt-6 space-y-3">
               <li class="flex items-start">
-                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 1em; height: 1em;">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span class="ml-2 text-sm text-gray-500">10 Credits</span>
               </li>
               <li class="flex items-start">
-                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 1em; height: 1em;">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span class="ml-2 text-sm text-gray-500">1 credit = 1 session</span>
               </li>
               <li class="flex items-start">
-                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 1em; height: 1em;">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span class="ml-2 text-sm text-gray-500">30-day validity</span>
@@ -297,7 +297,7 @@
         </div>
         
         <!-- Standard Package -->
-        <div class="relative p-5 bg-white border-2 border-talkup-blue rounded-lg shadow-sm flex flex-col">
+        <div class="relative p-5 bg-white border-2 border-talkup-blue rounded-lg shadow-sm flex flex-col h-full">
           <div class="absolute -top-4 inset-x-0">
             <div class="inline-block px-4 py-1 text-sm font-semibold text-white bg-talkup-orange rounded-full transform -translate-y-1/2">
               Most Popular
@@ -331,7 +331,7 @@
                 <span class="ml-2 text-sm text-gray-500">60-day validity</span>
               </li>
               <li class="flex items-start">
-                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="flex-shrink-0 w-4 h-4 mt-1 text-talkup-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 1em; height: 1em;">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span class="ml-2 text-sm text-gray-500">Progress reports</span>
@@ -345,7 +345,7 @@
         </div>
         
         <!-- Premium Package -->
-        <div class="relative p-5 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col">
+        <div class="relative p-5 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
           <div class="flex-1">
             <h3 class="text-lg font-semibold text-gray-900">Premium Package</h3>
             <p class="mt-4 flex items-baseline text-gray-900">
@@ -642,4 +642,3 @@
       </div>
     </div>
   </footer>
-</div>

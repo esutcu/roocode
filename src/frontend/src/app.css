@@ -122,3 +122,8 @@ button:hover {
 .bg-talkup-orange {
   background-color: var(--talkup-orange);
 }
+/* Ensure SVGs are appropriately sized */
+svg {
+  max-width: 100%;
+  height: auto;
+}
